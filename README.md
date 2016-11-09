@@ -11,6 +11,12 @@ docker build -t vvdocker-mysql .
 docker run --name app-db -d vvdocker-mysql
 ```
 
+### attach
+```
+docker exec -it app-db bash
+mysql -uroot -p
+```
+
 ## mysql data
 ### local file
 ```
