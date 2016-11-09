@@ -1,11 +1,11 @@
 # vvdocker/solo-mysql
-
-## quick-start
 + mysql 5.6 5.7 ... latest
 + mysql data (busybox, local file...)
 + init shell command
 + init sql command
++ etc custom
 
+## quick-start
 ### build
 ```
 docker build -t vvdocker-mysql .
