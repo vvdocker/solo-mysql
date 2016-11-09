@@ -36,8 +36,8 @@ mysql -uroot -p
 + edit conf.d/my.cnf
 + edit Dockerfile
 
-## startup 
-### shell command
+## startup command
+### shell
 + edit init.d/startup.sh
 + edit Dockerfile
 
